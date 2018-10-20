@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4A3136217B5506001CC8FC /* lottie.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C4A3135217B5506001CC8FC /* lottie.json */; };
+		1C8D344C217B4FB30068DCD7 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8D344A217B4FB20068DCD7 /* FadeTransition.swift */; };
+		1C8D344D217B4FB30068DCD7 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8D344B217B4FB20068DCD7 /* BaseTransition.swift */; };
+		1C8D3454217B51B60068DCD7 /* DSTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8D3453217B51B60068DCD7 /* DSTabBarController.swift */; };
 		1CEAA089217B25F100470A32 /* DSComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CEAA07F217B25F100470A32 /* DSComponents.framework */; };
 		1CEAA08E217B25F100470A32 /* DSComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAA08D217B25F100470A32 /* DSComponentsTests.swift */; };
 		1CEAA090217B25F100470A32 /* DSComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CEAA082217B25F100470A32 /* DSComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,6 +21,10 @@
 		1CEAA0C9217B345B00470A32 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CEAA0C3217B341800470A32 /* OpenSans-Regular.ttf */; };
 		1CEAA0CA217B345B00470A32 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CEAA0C4217B341800470A32 /* OpenSans-Semibold.ttf */; };
 		1CEAA0CB217B345B00470A32 /* OpenSansCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CEAA0C5217B341800470A32 /* OpenSansCondensed-Bold.ttf */; };
+		1CEAA0CD217B368A00470A32 /* HighlightBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAA0CC217B368A00470A32 /* HighlightBoxView.swift */; };
+		1CEAA0CF217B36E600470A32 /* HighlightBoxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CEAA0CE217B36E600470A32 /* HighlightBoxView.xib */; };
+		1CEAA0D1217B396E00470A32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CEAA0D0217B396D00470A32 /* Assets.xcassets */; };
+		1CEAA0D3217B3B5D00470A32 /* UIView+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAA0D2217B3B5D00470A32 /* UIView+Init.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C4A3135217B5506001CC8FC /* lottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie.json; sourceTree = "<group>"; };
+		1C8D344A217B4FB20068DCD7 /* FadeTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		1C8D344B217B4FB20068DCD7 /* BaseTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		1C8D3453217B51B60068DCD7 /* DSTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTabBarController.swift; sourceTree = "<group>"; };
 		1CEAA07F217B25F100470A32 /* DSComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CEAA082217B25F100470A32 /* DSComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSComponents.h; sourceTree = "<group>"; };
 		1CEAA083217B25F100470A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +55,10 @@
 		1CEAA0C3217B341800470A32 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		1CEAA0C4217B341800470A32 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
 		1CEAA0C5217B341800470A32 /* OpenSansCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSansCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		1CEAA0CC217B368A00470A32 /* HighlightBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightBoxView.swift; sourceTree = "<group>"; };
+		1CEAA0CE217B36E600470A32 /* HighlightBoxView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HighlightBoxView.xib; sourceTree = "<group>"; };
+		1CEAA0D0217B396D00470A32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = DSComponents/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		1CEAA0D2217B3B5D00470A32 /* UIView+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Init.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +80,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C4A3134217B54F3001CC8FC /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				1C8D344B217B4FB20068DCD7 /* BaseTransition.swift */,
+				1C8D344A217B4FB20068DCD7 /* FadeTransition.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		1C4A3137217B550A001CC8FC /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A3135217B5506001CC8FC /* lottie.json */,
+			);
+			name = Lottie;
+			path = ../../src/Lottie;
+			sourceTree = "<group>";
+		};
 		1CEAA075217B25F100470A32 = {
 			isa = PBXGroup;
 			children = (
@@ -88,7 +122,10 @@
 				1CEAA082217B25F100470A32 /* DSComponents.h */,
 				1CEAA0C7217B341800470A32 /* resources */,
 				1CEAA0A2217B263900470A32 /* Components */,
+				1C4A3134217B54F3001CC8FC /* Transitions */,
+				1C4A3137217B550A001CC8FC /* Lottie */,
 				1CEAA0A3217B264200470A32 /* Utils */,
+				1CEAA0D0217B396D00470A32 /* Assets.xcassets */,
 				1CEAA083217B25F100470A32 /* Info.plist */,
 			);
 			path = DSComponents;
@@ -106,6 +143,9 @@
 		1CEAA0A2217B263900470A32 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				1CEAA0CC217B368A00470A32 /* HighlightBoxView.swift */,
+				1C8D3453217B51B60068DCD7 /* DSTabBarController.swift */,
+				1CEAA0CE217B36E600470A32 /* HighlightBoxView.xib */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -116,6 +156,7 @@
 				1CEAA0A4217B26D800470A32 /* UIFont+DS.swift */,
 				1CEAA0B6217B314600470A32 /* UIColor+DS.swift */,
 				1CEAA0B2217B2B9000470A32 /* UILabel+Extension.swift */,
+				1CEAA0D2217B3B5D00470A32 /* UIView+Init.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -231,9 +272,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CEAA0CF217B36E600470A32 /* HighlightBoxView.xib in Resources */,
 				1CEAA0C8217B345B00470A32 /* OpenSans-Light.ttf in Resources */,
 				1CEAA0C9217B345B00470A32 /* OpenSans-Regular.ttf in Resources */,
 				1CEAA0CA217B345B00470A32 /* OpenSans-Semibold.ttf in Resources */,
+				1CEAA0D1217B396E00470A32 /* Assets.xcassets in Resources */,
+				1C4A3136217B5506001CC8FC /* lottie.json in Resources */,
 				1CEAA0CB217B345B00470A32 /* OpenSansCondensed-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,7 +297,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CEAA0B3217B2B9000470A32 /* UILabel+Extension.swift in Sources */,
+				1CEAA0CD217B368A00470A32 /* HighlightBoxView.swift in Sources */,
+				1C8D3454217B51B60068DCD7 /* DSTabBarController.swift in Sources */,
+				1CEAA0D3217B3B5D00470A32 /* UIView+Init.swift in Sources */,
+				1C8D344D217B4FB30068DCD7 /* BaseTransition.swift in Sources */,
 				1CEAA0B7217B314600470A32 /* UIColor+DS.swift in Sources */,
+				1C8D344C217B4FB30068DCD7 /* FadeTransition.swift in Sources */,
 				1CEAA0A5217B26D800470A32 /* UIFont+DS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

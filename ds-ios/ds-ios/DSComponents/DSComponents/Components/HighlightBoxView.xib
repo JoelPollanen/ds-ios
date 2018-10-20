@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Light.ttf">
+            <string>OpenSans-Light</string>
+        </array>
+        <array key="OpenSansCondensed-Bold.ttf">
+            <string>OpenSansCondensed-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HighlightBoxView" customModule="DSComponents" customModuleProvider="target">
+            <connections>
+                <outlet property="diamondLabel" destination="MoB-Uv-Opc" id="Rlb-G5-acT"/>
+                <outlet property="infoLabel" destination="nyF-3z-X76" id="HK5-4s-Fs4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="450"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ght-CJ-kgz">
+                    <rect key="frame" x="0.0" y="0.0" width="350" height="350"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="highlighBoxBg" translatesAutoresizingMaskIntoConstraints="NO" id="M3l-TW-Mpa">
+                            <rect key="frame" x="0.0" y="0.0" width="350" height="350"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hRq-CU-dzM">
+                            <rect key="frame" x="55" y="100" width="240" height="150"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="MoB-Uv-Opc">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="150"/>
+                                    <fontDescription key="fontDescription" name="OpenSansCondensed-Bold" family="Open Sans Condensed" pointSize="24"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="MoB-Uv-Opc" secondAttribute="trailing" id="1ad-Se-Rrx"/>
+                                <constraint firstItem="MoB-Uv-Opc" firstAttribute="top" secondItem="hRq-CU-dzM" secondAttribute="top" id="Knu-fE-fey"/>
+                                <constraint firstItem="MoB-Uv-Opc" firstAttribute="leading" secondItem="hRq-CU-dzM" secondAttribute="leading" id="qvu-3q-4ro"/>
+                                <constraint firstAttribute="bottom" secondItem="MoB-Uv-Opc" secondAttribute="bottom" id="yKe-9g-MoR"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="hRq-CU-dzM" firstAttribute="leading" secondItem="ght-CJ-kgz" secondAttribute="leading" constant="55" id="03n-s8-ZrL"/>
+                        <constraint firstAttribute="trailing" secondItem="M3l-TW-Mpa" secondAttribute="trailing" id="FAQ-PM-fMZ"/>
+                        <constraint firstItem="M3l-TW-Mpa" firstAttribute="leading" secondItem="ght-CJ-kgz" secondAttribute="leading" id="Fv4-yZ-LUT"/>
+                        <constraint firstItem="hRq-CU-dzM" firstAttribute="centerY" secondItem="ght-CJ-kgz" secondAttribute="centerY" id="IWU-EZ-kyJ"/>
+                        <constraint firstItem="hRq-CU-dzM" firstAttribute="top" secondItem="ght-CJ-kgz" secondAttribute="top" constant="100" id="Nek-eB-dkd"/>
+                        <constraint firstAttribute="width" secondItem="ght-CJ-kgz" secondAttribute="height" multiplier="1:1" id="QY3-B9-OrF"/>
+                        <constraint firstItem="hRq-CU-dzM" firstAttribute="centerX" secondItem="ght-CJ-kgz" secondAttribute="centerX" id="UpP-8v-ixR"/>
+                        <constraint firstAttribute="bottom" secondItem="M3l-TW-Mpa" secondAttribute="bottom" id="acV-kK-JMq"/>
+                        <constraint firstItem="M3l-TW-Mpa" firstAttribute="top" secondItem="ght-CJ-kgz" secondAttribute="top" id="ir4-st-jo3"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="nyF-3z-X76">
+                    <rect key="frame" x="5" y="350" width="350" height="100"/>
+                    <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="22"/>
+                    <color key="textColor" name="Designer Black"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="nyF-3z-X76" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="JJR-x5-Viy"/>
+                <constraint firstItem="ght-CJ-kgz" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="MKw-bD-4Uu"/>
+                <constraint firstItem="nyF-3z-X76" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" constant="5" id="NwK-Vg-ckI"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ght-CJ-kgz" secondAttribute="trailing" id="Szc-BD-g2X"/>
+                <constraint firstItem="ght-CJ-kgz" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="VAZ-2c-idE"/>
+                <constraint firstItem="nyF-3z-X76" firstAttribute="top" secondItem="ght-CJ-kgz" secondAttribute="bottom" id="gCv-qa-oS6"/>
+                <constraint firstItem="nyF-3z-X76" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="5" id="snL-po-Iyn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="16" y="-29"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="highlighBoxBg" width="350" height="350"/>
+        <namedColor name="Designer Black">
+            <color red="0.23137254901960785" green="0.20392156862745098" blue="0.22745098039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
